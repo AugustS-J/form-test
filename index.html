@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Test</title>
+</head>
+
+<body>
+    <h1>Udfyld min form</h1>
+    <form name="kontakt" netlify>
+        <div class="form-felt">
+            <label>Fulde navn</label>
+            <input placeholder="fx Peter Jensen" name="fname" required type="text">
+            <textarea name="besked" rows="5"></textarea>
+        </div>
+
+        <div class="form-felt">
+            <label>E-mail</label>
+            <input placeholder="fx peter@gmail.com" name="email" required type="email">
+            <textarea name="besked" rows="5"></textarea>
+        </div>
+
+        <div class="form-felt">
+            <label>
+                Profil
+                <select name="liste">
+                    <option value="">Vælg profil</option>
+                    <option value="studerende">Studerende</option>
+                    <option value="underviser">Underviser</option>
+                </select>
+            </label>
+            <textarea name="besked" rows="5"></textarea>
+        </div>
+
+        <button>Indsend</button>
+    </form>
+</body>
+
+</html>
